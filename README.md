@@ -2,7 +2,7 @@
 Python script for calculation of fair price of the stock based on company financial indicators. The formulae was getting from Artyom Khachatryan lectures.
 
 ## Usage
-In root folder in Terminal run `python3 investing.py a` (also `python3 investing.py eps`) or `python3 investing.py b` (also `python3 investing.py bv`). 
+In root folder in Terminal run `python3 fair_price.py a` (also `python3 fair_price.py eps`) or `python3 fair_price.py b` (also `python3 fair_price.py bv`). 
 
 You will need to type some financial indicators of the company that you've analyzed. 
 For type A: net profit margin in the start of analyzed period, net profit margin in the end of analyzed period, the number of periods (for example, for 5-year analyzing period you need to type 4) and average of P/E for last 5 years. 
